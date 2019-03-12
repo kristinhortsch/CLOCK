@@ -1,3 +1,4 @@
+/*eslint-disable*/
 var containers = document.querySelectorAll('.minutes-container');
 
 function initLocalClocks() {
@@ -77,7 +78,6 @@ function moveSecondHands() {
     }
   }, 1000);
 }
-
 
 initLocalClocks();
 setUpMinuteHands();
