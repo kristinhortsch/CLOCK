@@ -8,7 +8,7 @@
   width: 20em;
 }
 
-.clock.simple:after {
+.clock:after {
   background: #000;
   border-radius: 50%;
   content: "";
@@ -16,8 +16,8 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 5%;
-  height: 5%;
+  width: 6%;
+  height: 3%;
   z-index: 10;
 }
 
